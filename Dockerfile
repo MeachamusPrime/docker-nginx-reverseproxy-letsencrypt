@@ -1,8 +1,8 @@
 FROM nginx:alpine
 
-LABEL maintainer="Matthieu Bargheon <bh@bhtech.io>"
-LABEL git="https://github.com/bh42/docker-nginx-reverseproxy-letsencrypt"
-LABEL version="0.1"
+LABEL maintainer="Christopher Meacham <meachamus.prime@gmail.com>"
+LABEL git="https://github.com/MeachamusPrime/docker-nginx-reverseproxy-letsencrypt"
+LABEL version="0.1.1"
 
 VOLUME ["/certs", "/conf"]
 
